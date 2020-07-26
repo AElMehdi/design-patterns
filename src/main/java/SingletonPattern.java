@@ -1,10 +1,9 @@
 public class SingletonPattern {
-	private static SingletonPattern instance = null;
+	private static SingletonPattern instance = new SingletonPattern();
 
 	private SingletonPattern() {}
 
 	public static SingletonPattern getInstance() {
-		return instance == null ?
-				new SingletonPattern() : instance;
+		return instance;
 	}
 }
