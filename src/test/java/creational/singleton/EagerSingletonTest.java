@@ -1,4 +1,4 @@
-import creational.singleton.EagerSingleton;
+package creational.singleton;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

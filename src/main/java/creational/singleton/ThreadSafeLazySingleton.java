@@ -11,7 +11,7 @@ public class ThreadSafeLazySingleton {
    }
 
    // Synchronizing the whole method will have an impact on performance:
-   // The whole class will synchronized, which will slow it down
+   // The whole class will be synchronized, which will slow it down
    public static ThreadSafeLazySingleton getInstance() {
       if (instance == null) {
          synchronized (ThreadSafeLazySingleton.class) {
