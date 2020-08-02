@@ -1,5 +1,7 @@
 package creational.prototype;
 
+import static creational.prototype.ItemsName.*;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,13 +27,13 @@ public class Registry {
       movie.setTitle("Default movie");
       movie.setPrice(20);
       movie.setUrl("default movie URL");
-      items.put("Movie", movie);
+      items.put(MOVIE.name(), movie);
 
       Book book = new Book();
       book.setTitle("GoF");
       book.setPrice(15);
       book.setUrl("Default book URL");
-      items.put("Book", book);
+      items.put(BOOK.name(), book);
    }
 
 }
