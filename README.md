@@ -10,6 +10,11 @@ Code examples demonstrating different types of design patterns.
  - Pitfalls
  - Contrast
 ### Builder
+- Overview
+- Concepts
+- Design
+- Pitfalls
+- Contrast
 ### Prototype
 ### Factory
 ## Structural
