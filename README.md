@@ -16,6 +16,11 @@ Code examples demonstrating different types of design patterns.
 - Pitfalls
 - Contrast
 ### Prototype
+- Overview
+- Concepts
+- Design
+- Pitfalls
+- Contrast
 ### Factory
 ## Structural
 ## Behavioral
