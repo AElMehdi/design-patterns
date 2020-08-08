@@ -22,5 +22,10 @@ Code examples demonstrating different types of design patterns.
 - Pitfalls
 - Contrast
 ### Factory
+- Overview
+- Concepts
+- Design
+- Pitfalls
+- Contrast
 ## Structural
 ## Behavioral
