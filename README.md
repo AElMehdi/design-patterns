@@ -28,4 +28,11 @@ Code examples demonstrating different types of design patterns.
 - Pitfalls
 - Contrast
 ## Structural
+### Adapter
+### Bridge
+### Composite
+### Decorator
+### Facade
+### Flyweight
+### Proxy
 ## Behavioral
