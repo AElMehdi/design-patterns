@@ -10,6 +10,6 @@ class WebsiteFactoryTest {
    void should_create_a_blog() {
       Website blog = WebsiteFactory.getWebSite("blog");
 
-      assertThat(blog.pages()).isNotEmpty();
+      assertThat(blog.pages.get(1)).isInstanceOf(AboutPage.class);
    }
 }

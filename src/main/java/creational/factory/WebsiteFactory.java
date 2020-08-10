@@ -3,6 +3,11 @@ package creational.factory;
 public class WebsiteFactory {
 
    public static Website getWebSite(String websiteType) {
-      throw new UnsupportedOperationException();
+      switch (websiteType) {
+         case "blog":
+            return new Blog();
+         default:
+            return null;
+      }
    }
 }
