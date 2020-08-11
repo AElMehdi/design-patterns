@@ -1,4 +1,6 @@
-package creational.factory;
+package creational.factory.websites;
+
+import creational.factory.pages.Page;
 
 import java.util.ArrayList;
 import java.util.List;
